@@ -1,0 +1,155 @@
+/* Clock CSS
+-------------------------------------- */
+#clock {
+	position: relative;
+	width: 100%;
+}
+
+#clock-front, #clock-back {
+	position: absolute;
+	top: 0px;
+}
+
+#clock-front-upper div {
+	height: 21px;
+	position: absolute;
+	vertical-align: bottom;
+	visibility: hidden;
+}
+
+#clock-front-lower div {
+	height: 20px;
+	position: absolute;
+	vertical-align: top;
+	visibility: hidden;
+}
+
+#clock-back-upper div {
+	position: absolute;
+	vertical-align: bottom;
+}
+
+#clock-back-lower div {
+	position: absolute;
+	vertical-align: top;
+}
+
+#clock-back-seconds-up-left, #clock-back-seconds-up-right,
+#clock-front-minutes-up-left, #clock-front-minutes-up-right,
+#clock-back-minutes-up-left, #clock-back-minutes-up-right,
+#clock-front-seconds-up-left, #clock-front-seconds-up-right,
+#clock-back-minutes-down-left, #clock-back-minutes-down-right,
+#clock-back-seconds-down-left, #clock-back-seconds-down-right,
+#clock-front-minutes-down-left, #clock-front-minutes-down-right,
+#clock-front-seconds-down-left, #clock-front-seconds-down-right {
+	width: 21px;
+	height: 21px;
+	background-position: 0 0;
+	background: url(./images/clock_single.png) no-repeat;
+}
+
+/* Minutes start
+-------------------------------------- */
+#clock-back-minutes-up-left{
+	background-position: 0 0;
+	margin: 0 0 0 43px;
+}
+
+#clock-back-minutes-up-right {
+	background-position: 0 -43px;
+	margin: 0 0 0 64px;
+}
+
+#clock-front-minutes-up-left {
+	background-position: 0 0;
+	margin: 0 0 0 43px;
+}
+
+#clock-front-minutes-up-right {
+	background-position: 0 -43px;
+	margin: 0 0 0 63px;
+}
+
+#clock-back-minutes-down-left{
+	background-position: 0 -22px;
+	margin: 21px 0 0 43px;
+}
+
+#clock-back-minutes-down-right {
+	background-position: 0 -65px;
+	margin: 21px 0 0 64px;
+}
+
+#clock-front-minutes-down-left {
+	background-position: 0 -22px;
+	margin: 21px 0 0 42px;
+}
+
+#clock-front-minutes-down-right {
+	background-position: 0 -65px;
+	margin: 21px 0 0 63px;
+}
+
+/* Seconds start
+---------------------------------------- */
+#clock-back-seconds-up-left{
+	background-position: 0 0;
+	margin: 0 0 0 85px;
+}
+
+#clock-back-seconds-up-right {
+	background-position: 0 -43px;
+	margin: 0 0 0 106px;
+}
+
+#clock-front-seconds-up-left {
+	background-position: 0 0;
+	margin: 0 0 0 84px;
+}
+
+#clock-front-seconds-up-right {
+	background-position: 0 -43px;
+	margin: 0 0 0 105px;
+}
+
+#clock-back-seconds-down-left{
+	background-position: 0 -22px;
+	margin: 21px 0 0 85px;
+}
+
+#clock-back-seconds-down-right {
+	background-position: 0 -65px;
+	margin: 21px 0 0 106px;
+}
+
+#clock-front-seconds-down-left {
+	background-position: 0 -22px;
+	margin: 21px 0 0 84px;
+}
+
+#clock-front-seconds-down-right {
+	background-position: 0 -65px;
+	margin: 21px 0 0 105px;
+}
+
+/* Hours start
+---------------------------------------- */
+#clock-back-hours-up, #clock-front-hours-up {
+	width: 42px;
+	height: 21px;
+	background: url(./images/clock_double.png) no-repeat;
+	background-position: 0 0;
+	vertical-align: bottom;
+	display: inline-block;
+	margin: 0 0 0 0;
+}
+
+#clock-back-hours-down, #clock-front-hours-down {
+	width: 42px;
+	height: 20px;
+	background: url(./images/clock_double.png) no-repeat;
+	background-position: 0 -44px;
+	vertical-align: top;
+	display: inline-block;
+	margin: 21px 0 0 0;
+}
