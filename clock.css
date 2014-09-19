@@ -5,6 +5,10 @@
 	width: 100%;
 }
 
+.rtl #clock {
+	direction: ltr;
+}
+
 #clock-front, #clock-back {
 	position: absolute;
 	top: 0px;
