@@ -34,6 +34,11 @@
 	vertical-align: top;
 }
 
+#clock-back-upper img, #clock-back-lower img,
+#clock-front-upper img, #clock-front-lower img {
+	float: left;
+}
+
 #clock-back-seconds-up-left, #clock-back-seconds-up-right,
 #clock-front-minutes-up-left, #clock-front-minutes-up-right,
 #clock-back-minutes-up-left, #clock-back-minutes-up-right,
